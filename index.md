@@ -18,9 +18,9 @@ features:
   - icon: 🔒
     title: Advanced Encryption
     details: AES-256-GCM encryption with hardware-level security through Android KeyStore system
-  - icon: 👆
-    title: Biometric Unlock
-    details: Secure access to your password vault using fingerprint and other biometric authentication
+  - icon: 🎯
+    title: Privacy by Design
+    details: We attach great importance to privacy and security. We promise not to collect any personal information, upload any data, or engage in any online communication
   - icon: 🔄
     title: Auto-fill Service
     details: Smart context recognition and automatic password filling across applications
