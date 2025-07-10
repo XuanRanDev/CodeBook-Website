@@ -46,15 +46,15 @@ We provide two authentication methods to protect your data:
 
 ## 4. Data Encryption Scope
 
-The following information will be encrypted and stored in our database:
+CodeBook does not collect any user data, all data is stored locally on your device, and the following information will be encrypted and stored in the local database on your device:
 
 - Password fields for application accounts.
-- TOTP secrets.
+- OTP secrets.
 - Bank card numbers and CVV codes.
 - ID card numbers.
 - SSH private keys and passphrases.
 
-The following information is stored in plaintext in our database:
+The following information is stored in plain text:
 
 - Application and account names. This information is used for identification and management of your records, does not involve sensitive data, and is stored in plaintext for your convenience.
 - Bank names and cardholder names. This information is relatively less sensitive, but we still take appropriate security measures to protect its storage and use.
@@ -66,7 +66,7 @@ The following information is stored in plaintext in our database:
 
 Data decryption is triggered under the following circumstances:
 
-- When entering the application's TOTP main page, edit page, or detail page, we need to decrypt the TOTP secret to display data and generate verification codes.
+- When entering the application's OTP main page, edit page, or detail page, we need to decrypt the OTP secret to display data and generate verification codes.
 - When viewing sensitive information such as passwords, bank cards, or ID cards. When you need to view this sensitive information, the application will perform decryption after ensuring your identity verification is successful.
 - When using the autofill service. To facilitate the use of stored sensitive information in other applications, the application will decrypt and fill the data after your authentication is successful.
 - When exporting data. When you need to export data to other devices or create backups, the application decrypts the data and exports it in a specific encrypted format.
