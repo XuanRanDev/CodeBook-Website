@@ -46,13 +46,13 @@ We provide two authentication methods to protect your data:
 
 ## 4. Data Encryption Scope
 
-CodeBook does not collect any user data, all data is stored locally on your device, and the following information will be encrypted and stored in the local database on your device:
+CodeBook does not collect any user data, all data is stored locally on your device, **and the following information will be encrypted and stored in the local database on your device:**
 
-- Password fields for application accounts.
-- OTP secrets.
-- Bank card numbers and CVV codes.
-- ID card numbers.
-- SSH private keys and passphrases.
+- **Password fields for application accounts.**
+- **OTP secrets.**
+- **Bank card numbers and CVV codes.**
+- **ID card numbers.**
+- **SSH private keys and passphrases.**
 
 The following information is stored in plain text:
 
